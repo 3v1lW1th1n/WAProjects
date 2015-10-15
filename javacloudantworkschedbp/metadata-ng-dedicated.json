@@ -1,0 +1,76 @@
+{
+   "name": "Java Cloudant Workload Scheduler Starter (Dedicated)",
+   "services": [
+    {
+            "name": "cloudantNoSQLDB Dedicated",
+            "choices": ["Shared Dedicated"]
+        },
+	{
+            "name": "WorkloadScheduler",
+            "choices": ["Standard"],
+            "singleInstancePerSpace" : true
+        }
+    ],
+    "defaultMemory": 512,
+    "description": "This application demonstrates how to use the Cloudant NoSQL DB and Workload Scheduler services, with the 'Liberty for Java™' runtime on IBM Cloud.",
+    "categories": ["java"],
+    "type": "web",
+    "version": "1.0",
+    "smallIcon": "java_cloudant_small.png",
+    "icon": "java_cloudant_icon.png",
+    "largeIcon": "java_cloudant_large.png",
+    "featuredIcon": "java_cloudant_featured.png",
+    "marqueeIcon": "java_cloudant_marquee.png",
+    "headingIcon": "java_cloudant_heading.png",
+    "executableFile": "JavaCloudantApp.war",
+    "instructions": "app/java_instructions.md",
+    "source": {
+        "scmType": "git",
+        "url": ".git",
+        "appPath": "app"
+    },
+    "docURL": "/#starters/java-cloudant/index.html#java-cloudant",
+    "system_tags": ["ibm_created"],
+    "runtime_template_id": "javaHelloWorld",
+    "runtime_id": "d70d427c-eb92-43a7-a3fa-67e9885ad044",
+    "extra": {
+    	"i18n": {
+    		"de": {
+                "name": "Java Cloudant Web Starter",
+                "description": "Diese Anwendung veranschaulicht die Verwendung des Cloudant NoSQL DB-Service mit der Laufzeit 'Liberty for Java\u2122' unter IBM Cloud."
+            },
+			"es": {
+                "name": "Java Cloudant Web Starter",
+                "description": "Esta aplicación muestra cómo utilizar el servicio Cloudant NoSQL DB con el tiempo de ejecución 'Liberty for Java\u2122' en IBM Cloud."
+            },
+			"fr": {
+                "name": "Java Cloudant Web Starter",
+                "description": "Cette application explique comment utiliser le service Cloudant NoSQL DB avec le contexte d'exécution 'Liberty for Java\u2122' dans le cloud IBM. "
+            },
+			"it": {
+                "name": "Java Cloudant Web Starter",
+                "description": "Questa applicazione mostra come utilizzare il servizio Cloudant NoSQL DB con il runtime di 'Liberty for Java\u2122' su IBM Cloud."
+            },
+			"ja": {
+                "name": "Java Cloudant Web スターター",
+                "description": "このアプリケーションでは、IBM Cloud で 'Liberty for Java\u2122' ランタイムを使用して、Cloudant NoSQL DB サービスを使用する方法を示します。"
+            },
+			"ko": {
+                "name": "Java Cloudant 웹 스타터",    
+                "description": "이 애플리케이션은 IBM Cloud의 'Liberty for Java\u2122' 런타임이 포함되어 있는 Cloudant NoSQL DB 서비스의 사용 방법을 보여줍니다."
+            },
+			"pt-BR": {
+                "name": "Java Cloudant Web Starter",
+                "description": "Este aplicativo demonstra como usar o servidor do banco de dados Cloudant NoSQL com o tempo de execução 'Liberty for Java\u2122' no IBM Cloud."
+            },
+			"zh-Hans": {
+                "name": "Java Cloudant Web Starter",
+                "description": "此应用程序演示如何使用 Cloudant NoSQL DB 服务（IBM Cloud 上具有“Liberty for Java\u2122”运行时）。"
+            },
+			"zh-Hant": {
+                "name": "Java Cloudant Web Starter",
+                "description": "此應用程式示範如何使用 Cloudant NoSQL DB 服務搭配 IBM Cloud 上的 'Liberty for Java\u2122' 執行時期。"
+            }
+        }
+    }
+}
