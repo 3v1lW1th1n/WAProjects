@@ -5,11 +5,6 @@
             "name": "cloudantNoSQLDB",
             "choices": ["Shared"]
         },
-		{
-            "name": "MonitoringAndAnalytics",
-            "choices": ["free"],
-            "singleInstancePerSpace" : true
-        },
 	{
             "name": "WorkloadScheduler",
             "choices": ["Standard"],
