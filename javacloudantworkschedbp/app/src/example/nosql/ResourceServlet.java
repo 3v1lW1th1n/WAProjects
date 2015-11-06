@@ -371,7 +371,7 @@ public class ResourceServlet {
 
 			try {
 				WorkloadSchedulerClient wsClient = new WorkloadSchedulerClient();
-				wsClient.setupProcess("JavaCloudant", "Cleanup", "Java Cloudant Sample periodic cleanup",
+				wsClient.setupProcess("JavaCloudant", "Cleanup-"+getAppURI(), "Java Cloudant Sample periodic cleanup",
 						baseURL + "/cleanup");
 
 				schedulerInitialized = true;
@@ -384,18 +384,27 @@ public class ResourceServlet {
 
 	private String getBaseURL() {
 		String baseURL = null;
+
+		String uri = getAppURI();
+		if (uri!=null) {
+			baseURL = "https://" + uri + API_ROOT;
+		}
+
+		System.out.println("Base URL: " + baseURL);
+		return baseURL;
+	}
+
+	private String getAppURI() {
+		String uri=null;
 		// Get Base URL starting from VCAP_APPLICATION env variable
 		String vcapJSONString = System.getenv("VCAP_APPLICATION");
 		if (vcapJSONString != null) {
 			// parse the VCAP JSON structure
 			JsonObject app = new JsonParser().parse(vcapJSONString).getAsJsonObject();
 			JsonArray uris = app.get("application_uris").getAsJsonArray();
-			String uri = uris.get(0).getAsString();
-			baseURL = "https://" + uri + API_ROOT;
+			uri = uris.get(0).getAsString();
 		}
-
-		System.out.println("Base URL: " + baseURL);
-		return baseURL;
+		return uri;
 	}
 
 }
