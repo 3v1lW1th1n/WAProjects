@@ -22,12 +22,12 @@
     "featuredIcon": "java_workloadscheduler_featured.png",
     "marqueeIcon": "java_workloadscheduler_marquee.png",
     "headingIcon": "java_workloadscheduler_heading.png",
-    "executableFile": "app/javaCloudantWorkloadSchedulerApp.war",
+    "executableFile": "javacloudantworkschedbp/app/javaCloudantWorkloadSchedulerApp.war",
     "instructions": "app/java_instructions.md",
     "source": {
         "scmType": "git",
         "url": "https://github.com/WAdev0/WAProjects.git",
-        "appPath": "app"
+        "appPath": "javacloudantworkschedbp/app"
     },
     "docURL": "/#starters/java-cloudant/index.html#java-cloudant",
    "system_tags": ["ibm_created"],
