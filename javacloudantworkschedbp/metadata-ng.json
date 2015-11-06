@@ -1,5 +1,5 @@
 {
-   "name": "Java Workload Scheduler Starter",
+   "name": "Java Workload Scheduler Web Starter",
    "services": [
     {
             "name": "cloudantNoSQLDB",
