@@ -22,7 +22,7 @@
     "featuredIcon": "java_workloadscheduler_featured.png",
     "marqueeIcon": "java_workloadscheduler_marquee.png",
     "headingIcon": "java_workloadscheduler_heading.png",
-    "executableFile": "app/javaCloudantWorkloadSchedulerApp.war",
+    "executableFile": "javaCloudantWorkloadSchedulerApp.war",
     "instructions": "app/java_instructions.md",
     "source": {
         "scmType": "git",
