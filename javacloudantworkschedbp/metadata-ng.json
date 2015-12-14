@@ -52,11 +52,11 @@
                 "description": "Questa applicazione mostra come utilizzare il servizio Workload Scheduler con il runtime di 'Liberty for Java\u2122' su IBM Cloud."
             },
 			"ja": {
-                "name": "Java Workload Scheduler スターター",
+                "name": "Java Workload Scheduler Web Starter",
                 "description": "このアプリケーションでは、IBM Cloud で 'Liberty for Java\u2122' ランタイムを使用して、Workload Scheduler サービスを使用する方法を示します。"
             },
 			"ko": {
-                "name": "Java Workload Scheduler 웹 스타터",
+                "name": "Java Workload Scheduler Web Starter",
                 "description": "이 애플리케이션은 IBM Cloud의 'Liberty for Java\u2122' 런타임이 포함되어 있는 Workload Scheduler 서비스의 사용 방법을 보여줍니다."
             },
 			"pt-BR": {
