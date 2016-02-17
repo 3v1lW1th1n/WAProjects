@@ -29,7 +29,7 @@
         "url": "https://github.com/WAdev0/WAProjects.git",
         "appPath": "javacloudantworkschedbp/app"
     },
-    "docURL": "/#starters/java-cloudant/index.html#java-cloudant",
+    "docURL": "/starters/workloadscheduler/index.html",
     "system_tags": ["ibm_created"],
     "runtime_template_id": "javaHelloWorld",
     "runtime_id": "d70d427c-eb92-43a7-a3fa-67e9885ad044",
