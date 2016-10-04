@@ -26,11 +26,11 @@ This section explains how to compile the app and manually generate a deployable 
 - Make sure you have an installed and working instance of Apache Maven, using Java 1.7 or above. You also need git.
 - Clone this project:  
 ```
-git clone https://github.com/MatteoVettosiHCL/java-cloudant-workload-scheduler-app.git
+git clone https://github.com/WAdev0/WAProjects.git
 ```
 - Move to the newly created folder:  
 ```
-cd java-cloudant-workload-scheduler-app
+cd WAProjects/javacloudantworkschedbp
 ```
 - Install the maven dependencies  
 ```
