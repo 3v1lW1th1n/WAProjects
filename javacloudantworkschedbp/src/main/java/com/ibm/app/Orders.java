@@ -1,3 +1,17 @@
+/******************************************************************
+ * IBM Confidential
+ *
+ * OCO Source Materials
+ * 
+ * 5698-WSH
+ * Copyright IBM Corp. 2015, 2016
+ * Copyright HCL Corp, 2016
+ * The source code for this program is not published or otherwise 
+ * divested of its trade secrets, irrespective of what
+ * been deposited with the U.S. Copyright Office.
+ * 
+ *******************************************************************/
+
 package com.ibm.app;
 
 import java.io.IOException;
