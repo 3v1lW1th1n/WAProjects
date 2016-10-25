@@ -1,7 +1,0 @@
-com\ibm\app\bean\Order.class
-com\ibm\app\mgr\ClientMgr.class
-com\ibm\app\mgr\AppLabClientMgr.class
-com\ibm\app\Orders.class
-com\ibm\app\mgr\CloudantClientMgr.class
-com\ibm\app\mgr\AppLabClientMgr$2.class
-com\ibm\app\mgr\AppLabClientMgr$1.class
