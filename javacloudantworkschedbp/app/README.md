@@ -30,7 +30,7 @@ git clone https://github.com/WAdev0/WAProjects.git
 ```
 - Move to the newly created folder:  
 ```
-cd WAProjects/javacloudantworkschedbp
+cd WAProjects/javacloudantworkschedbp/app
 ```
 - Install the maven dependencies  
 ```
