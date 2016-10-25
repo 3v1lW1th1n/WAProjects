@@ -84,7 +84,7 @@ body {
 
 	function addToShoppingCart(button, id) {
 		shoppingCartNumItems++;
-		shoppingCartAmount += Math.round(shoppingCatalog[id].price * 100) / 100;
+		shoppingCartAmount += Maths.round(shoppingCatalog[id].price * 100) / 100;
 
 		document.getElementById("cart_num_items").innerHTML = shoppingCartNumItems;
 
@@ -194,6 +194,9 @@ body {
         <div class="hero-unit">
             <h1>Ye olde Beer shop</h1>
             <p>Showing the finest selection of beers in the world.</p>
+            <p>
+                <a href="#" class="btn btn-primary btn-large">Learn more</a>
+            </p>
         </div>
 
         <!-- Example row of columns -->
