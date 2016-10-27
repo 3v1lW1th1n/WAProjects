@@ -86,7 +86,7 @@ body {
 		shoppingCartNumItems++;
 		shoppingCartAmount += shoppingCatalog[id].price;
 
-		document.getElementById("cart_num_items").innerHTML = shoppingCartNumItems.toFixed(2);
+		document.getElementById("cart_num_items").innerHTML = shoppingCartNumItems;
 
 		if (!shoppingCart[id]) {
 			shoppingCart[id] = {
@@ -97,7 +97,7 @@ body {
 		shoppingCart[id].quantity++;
 
 		document.getElementById("cart_amount").innerHTML = " ($"
-				+ shoppingCartAmount + ")";
+				+ shoppingCartAmount.toFixed(2) + ")";
 
 		// To have fun: change button style to 'success' and keep track of how many items have been added
 		if (typeof button.howMany === "undefined" || button.innerHTML.substring(0, 5) != "Added")
