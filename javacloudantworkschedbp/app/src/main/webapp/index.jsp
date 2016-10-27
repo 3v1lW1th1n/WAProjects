@@ -84,7 +84,7 @@ body {
 
 	function addToShoppingCart(button, id) {
 		shoppingCartNumItems++;
-		shoppingCartAmount += Math.round(shoppingCatalog[id].price * 100) / 100;
+		shoppingCartAmount += (shoppingCatalog[id].price).toFixed(2);
 
 		document.getElementById("cart_num_items").innerHTML = shoppingCartNumItems;
 
