@@ -136,7 +136,7 @@ body {
 			var posting = $.post(url, order);
 
 			posting.done(function(data) {
-				alert("Thanks for shopping. Your order was submitted.\n\nWhile it is being processed, you can find the corresponding document on the Cloudant interface inside the \"orders\" database.\n\nYou can also review the Workload Scheduler Process created and monitor its execution from the service Application Lab interface.");
+				alert("Thank you for your purchase. Your order has been submitted.\n\nWhile it is being processed, check out the document that corresponds to your order in the \"orders\" database on the Cloudant interface.\n\nYour order also generated a Workload Scheduler process which you can monitor from the Application Lab interface available through the Workload Scheduler service.");
 				$(".addButton").each(function() {
 					$(this).removeClass("btn-success")
 						.html('<span aria-hidden="true" class="glyphicon glyphicon-shopping-cart"></span>')
