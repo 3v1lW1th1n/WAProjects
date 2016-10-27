@@ -84,9 +84,9 @@ body {
 
 	function addToShoppingCart(button, id) {
 		shoppingCartNumItems++;
-		shoppingCartAmount += (shoppingCatalog[id].price).toFixed(2);
+		shoppingCartAmount += shoppingCatalog[id].price;
 
-		document.getElementById("cart_num_items").innerHTML = shoppingCartNumItems;
+		document.getElementById("cart_num_items").innerHTML = shoppingCartNumItems.toFixed(2);
 
 		if (!shoppingCart[id]) {
 			shoppingCart[id] = {
@@ -142,7 +142,9 @@ body {
 						.html('<span aria-hidden="true" class="glyphicon glyphicon-shopping-cart"></span>')
 				});
 				$("#cart_num_items").html("0");
+                shoppingCartNumItems = 0;
 				$("#cart_amount").html("");
+                shoppingCartAmount = 0;
 				$("body").css("cursor", "default");
 				$(".container-fluid").removeClass("disabledButton");
 			});
