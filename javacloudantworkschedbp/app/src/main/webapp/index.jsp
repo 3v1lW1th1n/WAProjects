@@ -223,7 +223,7 @@ body {
                     <div class="col-md-12">
                         <img class="img-rounded img-responsive" src="html/demo/chimay.jpg" style="float:left;with=40%">
                         <p>Chimay Blue, 9% abv darker ale. </p>
-                        <p>In the 75 cl bottle, it is known as Grande Réserve. This copper-brown beer has a light creamy head and a slightly bitter taste. Considered to be the "classic" Chimay ale, it exhibits a considerable depth of fruity, peppery character.</p>
+                        <p>In the 75 cl bottle, it is known as Grande R&#233;serve. This copper-brown beer has a light creamy head and a slightly bitter taste. Considered to be the "classic" Chimay ale, it exhibits a considerable depth of fruity, peppery character.</p>
                     </div>
                 </div>
             </div>
