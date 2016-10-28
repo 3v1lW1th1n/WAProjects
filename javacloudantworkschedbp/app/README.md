@@ -81,7 +81,7 @@ useradd -m iws
 - While waiting for the Application Lab to discover the newly installed agent, set the environment variables for the sender and recipient email:
   - Click the _Runtime_ tab
   - Click the _Environment Variables_ tab
-  - Click to the _USER-DEFINED_ section
+  - Scroll to the _USER-DEFINED_ section
   - Add a _FROM_ and a _TO_ variable containing the sender and recipient email address, respectively.
   - **Note**: for some specific services, like _Gmail_, additional configurations may be needed on the agent machine.
 
