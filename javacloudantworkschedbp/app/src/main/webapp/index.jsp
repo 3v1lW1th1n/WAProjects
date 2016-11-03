@@ -202,39 +202,37 @@ body {
        <div class="row">
 
             <div class="col-md-4">
-              <h2 style="margin-top:0" class="pull-left">Pauwel Kwak</h2>
+              <h2 style="margin-top:0" class="pull-left">Lwak</h2>
               <button onclick="addToShoppingCart(this,'g1')" class="btn btn-primary pull-right addButton"><span aria-hidden="true" class="glyphicon glyphicon-shopping-cart"></span></button>
                 <div class="row">
                     <div class="col-md-12" style="">
                         <img class="img-rounded img-responsive" src="html/demo/kwak.jpg" style="float:left;with=40%">
-
-<p>Pauwel Kwak is an amber ale brewed since the 1980s with 8.4% abv. Supposedly it is named after an 18th-century innkeeper and brewer, Pauwel Kwak. The beer is filtered before packaging in bottles and kegs.</p>
-<p>As with other Belgian beers, Kwak has a branded glass with its own distinctive shape.[3] It is held upright in a wooden stand; the brewery claims the glass was designed by the innkeeper Pauwel Kwak in the early 19th century for coachmen who would stop at his coaching tavern and brewery named "De Hoorn",[4] though the beer and the glass were not launched until the 1980s</p>  
-
+                        <p>This unique beer has exceptional character and flavour that matures with time spent in the bottle; to what extend even we're not sure yet! Earthy and rustic notes are complimented by a rich highly effervescent beer.</p>
+                        <p>A beer for sustance over refreshment, this is our tribute to the original farmhouse brewers and to this exceptional family of beers.</p>
                     </div>
-
                 </div>
             </div>
 
             <div class="col-md-4">
-                <h2 style="margin-top:0" class="pull-left">Chimay</h2>
+                <h2 style="margin-top:0" class="pull-left">Thelpagn</h2>
               <button onclick="addToShoppingCart(this,'g2')" class="btn btn-primary pull-right addButton"><span aria-hidden="true" class="glyphicon glyphicon-shopping-cart"></span></button>                
                 <div class="row">
                     <div class="col-md-12">
                         <img class="img-rounded img-responsive" src="html/demo/chimay.jpg" style="float:left;with=40%">
-                        <p>Chimay Blue, 9% abv darker ale. </p>
-                        <p>In the 75 cl bottle, it is known as Grande R&#233;serve. This copper-brown beer has a light creamy head and a slightly bitter taste. Considered to be the "classic" Chimay ale, it exhibits a considerable depth of fruity, peppery character.</p>
+                        <p>This unique beer has exceptional character and flavour that matures with time spent in the bottle; to what extend even we're not sure yet! Earthy and rustic notes are complimented by a rich highly effervescent beer.</p>
+                        <p>A beer for sustance over refreshment, this is our tribute to the original farmhouse brewers and to this exceptional family of beers.</p>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
-                <h2 style="margin-top:0" class="pull-left">Deus Champagne</h2>
+                <h2 style="margin-top:0" class="pull-left">Savand</h2>
               <button onclick="addToShoppingCart(this,'g3')" class="btn btn-primary pull-right addButton"><span aria-hidden="true" class="glyphicon glyphicon-shopping-cart"></span></button>                
                 <div class="row">
                     <div class="col-md-12">
                         <img class="img-rounded img-responsive" src="html/demo/deuschampagne.jpg" style="float:left;with=40%">
-                        <p>Belgian ales are often hailed as the union of German beer and French wine technique, but few can claim to be as literally cross-cultural as DeuS. Initially brewed and conditioned in Belgium over a period of months, DeuS is then shipped to France for its final treatment.</p>
+                        <p>This unique beer has exceptional character and flavour that matures with time spent in the bottle; to what extend even we're not sure yet! Earthy and rustic notes are complimented by a rich highly effervescent beer.</p>
+                        <p>A beer for sustance over refreshment, this is our tribute to the original farmhouse brewers and to this exceptional family of beers.</p>
                     </div>
                 </div>
             </div>
@@ -242,34 +240,37 @@ body {
         
         <div class="row">
             <div class="col-md-4">
-                <h2 style="margin-top:0" class="pull-left">Left hand</h2>
+                <h2 style="margin-top:0" class="pull-left">Fishkyjd</h2>
               <button onclick="addToShoppingCart(this,'g4')" class="btn btn-primary pull-right addButton"><span aria-hidden="true" class="glyphicon glyphicon-shopping-cart"></span></button>                
                 <div class="row">
                     <div class="col-md-12">
                         <img class="img-rounded img-responsive" src="html/demo/lefthand.jpg" style="float:left;with=40%">
-                        <p>Dark hazy brown appearance with a rocky cap of foam. Smells distinctively of warm banana bread and light cocoa. Delicate smoked malt notes coalesce with the yeast phenols. The flavors deliver on all the aromas with added levels of baking spices, sweet malt and hoppy notes of mint. Your liquid banana split is served.</p>
+                        <p>This unique beer has exceptional character and flavour that matures with time spent in the bottle; to what extend even we're not sure yet! Earthy and rustic notes are complimented by a rich highly effervescent beer.</p>
+                        <p>A beer for sustance over refreshment, this is our tribute to the original farmhouse brewers and to this exceptional family of beers.</p>
                     </div>
                 </div>
             </div>
             
              <div class="col-md-4">
-                <h2 style="margin-top:0" class="pull-left">Savour</h2>
+                <h2 style="margin-top:0" class="pull-left">Landak</h2>
               <button onclick="addToShoppingCart(this,'g5')" class="btn btn-primary pull-right addButton"><span aria-hidden="true" class="glyphicon glyphicon-shopping-cart"></span></button>                
                 <div class="row">
                     <div class="col-md-12">
                         <img class="img-rounded img-responsive" src="html/demo/savour.jpg" style="float:left;with=40%">
-                        <p>This unique beer has exceptional character and flavour that matures with time spent in the bottle; to what extend even we’re not sure yet! Earthy and rustic notes are complimented by a rich highly effervescent beer. A beer for sustenance over refreshment, this is our tribute to the original farmhouse brewers and to this exceptional family of beers.</p>
+                        <p>This unique beer has exceptional character and flavour that matures with time spent in the bottle; to what extend even we're not sure yet! Earthy and rustic notes are complimented by a rich highly effervescent beer.</p>
+                        <p>A beer for sustance over refreshment, this is our tribute to the original farmhouse brewers and to this exceptional family of beers.</p>
                     </div>
                 </div>
             </div>
             
             <div class="col-md-4">
-                <h2 style="margin-top:0" class="pull-left">Thelonious</h2>
+                <h2 style="margin-top:0" class="pull-left">Khiashkyj</h2>
               <button onclick="addToShoppingCart(this,'g6')" class="btn btn-primary pull-right addButton"><span aria-hidden="true" class="glyphicon glyphicon-shopping-cart"></span></button>                
                 <div class="row">
                     <div class="col-md-12">
                         <img class="img-rounded img-responsive" src="html/demo/thelonious.jpg" style="float:left;with=40%">
-                        <p>Like a Belgian “Dark Strong Ale,” this beer is rich and robust with an ABV of 9.4%. The package features a label picturing the Jazz master himself, and comes in a 750 ml bottle with a traditional cork and wire finish, or 12 oz. 4-packs.</p>
+                        <p>This unique beer has exceptional character and flavour that matures with time spent in the bottle; to what extend even we're not sure yet! Earthy and rustic notes are complimented by a rich highly effervescent beer.</p>
+                        <p>A beer for sustance over refreshment, this is our tribute to the original farmhouse brewers and to this exceptional family of beers.</p>
                     </div>
                 </div>
             </div>
