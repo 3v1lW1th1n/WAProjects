@@ -32,10 +32,6 @@ git clone https://github.com/WAdev0/WAProjects.git
 ```
 cd WAProjects/javacloudantworkschedbp/app
 ```
-- Install the maven dependencies  
-```
-mvn clean
-```
 - Build the app  
 ```
 mvn package
