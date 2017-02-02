@@ -104,7 +104,7 @@ public class AppLabClientMgr extends ClientMgr {
 					engineName = URLDecoder.decode(pair.substring(idx + 1), "UTF-8");
 					break;
 				case "engineOwner":
-					engineOwner = URLDecoder.decode(pair.substring(idx + 1), "UTF-8");
+					engineOwner = URLDecoder.decode(pair.substring(idx + 1), "UTF-8");	
 					break;
 				default:
 					break;
@@ -173,13 +173,15 @@ public class AppLabClientMgr extends ClientMgr {
         CloudantStep clStep = getCloudantStepWithConnection();
         CloudantAction clAct = new CloudantAction();
         CloudantBody clBody = new CloudantBody();
-        clBody.setType("mock");
-        clBody.setInputDocument("mock");
+        // Temporary workaround for restful service
+        clBody.setType("inputFileName");
         clBody.setInputFileName("mock");
+        
         clAct.setType("documentOperation");
         clAct.setDocumentOperation("READ");
         clAct.setDocumentId("_all_docs");
-        clAct.setDocumentRevision("mock");
+        clAct.setDocumentRevision("");
+
         clStep.setCloudantAction(clAct);
         clStep.setCloudantBody(clBody);
         step.setCloudantStep(clStep);
@@ -193,7 +195,8 @@ public class AppLabClientMgr extends ClientMgr {
         clAct.setType("documentOperation");
         clAct.setDocumentOperation("READ");
         clAct.setDocumentId("${job:STEP1.jsonResult.rows[0].id}");
-        clAct.setDocumentRevision("test");
+        clAct.setDocumentRevision("");
+        
         clStep.setCloudantAction(clAct);
         clStep.setCloudantBody(clBody);
         step.setCloudantStep(clStep);
@@ -226,8 +229,10 @@ public class AppLabClientMgr extends ClientMgr {
         clAct.setDocumentOperation("DELETE");
         clAct.setDocumentId("${job:STEP2.jsonResult._id}");
         clAct.setDocumentRevision("${job:STEP2.jsonResult._rev}");
+        clAct.setDocumentRevision("");
+        
         clStep.setCloudantAction(clAct);;
-        clStep.setCloudantBody(clBody);
+        clStep.setCloudantBody(clBody);        
         step.setCloudantStep(clStep);
         steps.add(step);
         info("Created Step 4");
@@ -263,7 +268,7 @@ public class AppLabClientMgr extends ClientMgr {
 	private String getCloudAgentName() {
 		String agentName = System.getenv("CLOUD_AGENT");
 		if (agentName == null)
-			agentName = tenantId + "_CLOUD";
+			agentName = tenantId + "_CLOUD";			
 		return agentName;
 	}
 
